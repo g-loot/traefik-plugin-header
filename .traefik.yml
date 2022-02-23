@@ -1,6 +1,6 @@
 displayName: Traefik rewrite IP
 type: middleware
-import: github.com/gloot/traefik-plugin-header
+import: github.com/g-loot/traefik-plugin-header
 
 summary: When traefik is deployed behind a load balancer, it should get the real IP from the X-Forwarded-For or Cf-Connecting-Ip (if from Cloudflare) header. 
 
