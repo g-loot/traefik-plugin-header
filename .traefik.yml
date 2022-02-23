@@ -1,4 +1,4 @@
-displayName: Traefik Real IP
+displayName: Traefik rewrite  Real IP and x-forwarder headers
 type: middleware
 import: github.com/gloot/traefik-plugin-header
 
